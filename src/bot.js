@@ -1,9 +1,9 @@
 require("dotenv").config();
 const { Client, IntentsBitField, ActivityType } = require("discord.js");
 const status = require("./background/status.js");
-const walter = require("./background/walter.js");
+const character = require("./background/character.js");
 
-let convoHistory = [{role: "system", content: "You are playing fictional character: Walter White/Heisenberg, you will respond to the following message in context with the character, act like you are this person, do not state their name before your reply."}]
+let convoHistory = [{role: "system", content: "You are playing a fictional character: Walter White/Heisenberg, you will respond to the following message in context with the character, act like you are this person, do not state their name before your reply."}]
 
 
 
